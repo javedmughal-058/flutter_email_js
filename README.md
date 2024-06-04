@@ -92,7 +92,7 @@ try {
 ```
 
 The provided code defines a Dart class FlutterEmailJS with a static method sendEmail that facilitates sending emails using the EmailJS service. Here’s a detailed explanation of the code:
-* Importing the Package: This statement imports the flutter_email_js package, which contains the FlutterEmailJS class and its sendEmail method.
+* Importing the Package: Imports the flutter_email_js package, which contains the FlutterEmailJS class and its sendEmail method.
 * Static Method:
     sendEmail is a static method, meaning it can be called without creating an instance of FlutterEmailJS.
 * Parameters:
