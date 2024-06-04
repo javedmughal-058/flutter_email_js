@@ -1,5 +1,23 @@
 
 ## EmailJS SDK for Flutter
+
+<table>
+    <tr>
+        <td>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="Flutter Logo" height="30">
+        </td>
+        <td>
+            flutter_email_js
+        </td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td>pub</td>
+        <td>v1.0.1</td>
+    </tr>
+</table>
+
 SDK for EmailJS.com services. 
 Login to EmailJS account for sending emails.
 https://www.emailjs.com/
