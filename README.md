@@ -11,11 +11,14 @@
         </td>
     </tr>
 </table>
+
 <table>
-    <tr>
-        <td>pub</td>
-        <td>v1.0.1</td>
-    </tr>
+  <tr>
+    <th>Pub Version</th>
+    <th>Pub Points</th>
+  </tr>
+  <tr>
+    <td>Pub v1.0.1</td> <td>100/140</td>  </tr>
 </table>
 
 SDK for EmailJS.com services. 
