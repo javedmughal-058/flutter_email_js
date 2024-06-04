@@ -6,6 +6,28 @@ https://www.emailjs.com/
 
 https://github.com/javedmughal-058/flutter_email_js/assets/91019922/fdbbd3f0-ae8c-44bb-aef1-f368f26cec5e
 
+## Supports
+<table>
+    <tr>
+        <th>Platform Support</th>
+        <th>Android</th>
+        <th>iOS</th>
+        <th>MacOS</th>
+        <th>Web</th>
+        <th>Linux</th>
+        <th>Windows</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td><span class="checkmark">&#10004;</span></td>
+        <td><span class="checkmark">&#10004;</span></td>
+        <td><span class="checkmark">&#10004;</span></td>
+        <td><span class="checkmark">&#10004;</span></td>
+        <td><span class="checkmark">&#10004;</span></td>
+        <td><span class="checkmark">&#10004;</span></td>
+    </tr>
+</table>
+
 
 ## Features
 
