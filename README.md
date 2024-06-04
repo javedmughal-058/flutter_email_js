@@ -24,7 +24,10 @@ SDK for EmailJS.com services.
 Login to EmailJS account for sending emails.
 https://www.emailjs.com/
 
-https://github.com/javedmughal-058/flutter_email_js/assets/91019922/fdbbd3f0-ae8c-44bb-aef1-f368f26cec5e
+## Demo
+![demo_gif](https://github.com/javedmughal-058/flutter_email_js/assets/91019922/20e05d66-4df6-47af-a251-2cf0e39be8ae)
+
+
 
 
 ## Supports
@@ -112,6 +115,8 @@ This code snippet imports the flutter_email_js package and uses it to send an em
 After you all these configuration, you will receive email like;
 
 ![email_js](https://github.com/javedmughal-058/flutter_email_js/assets/91019922/c60af9c3-1eee-4ded-a2dc-953879a84fec)
+
+
 
 ## Additional information
 
