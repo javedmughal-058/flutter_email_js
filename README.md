@@ -1,10 +1,11 @@
 
 ## EmailJS SDK for Flutter
-SDK for EmailJS.com services.
+SDK for EmailJS.com services. 
 Login to EmailJS account for sending emails.
 https://www.emailjs.com/
 
 https://github.com/javedmughal-058/flutter_email_js/assets/91019922/fdbbd3f0-ae8c-44bb-aef1-f368f26cec5e
+
 
 ## Supports
 <table>
@@ -28,7 +29,6 @@ https://github.com/javedmughal-058/flutter_email_js/assets/91019922/fdbbd3f0-ae8
     </tr>
 </table>
 
-
 ## Features
 
 FlutterEmailJS enables you to send emails directly from your code with minimal knowledge required. 
@@ -42,11 +42,14 @@ Install FlutterEmailJS SDK:
 $ flutter pub add flutter_email_js 
 ```
 
+## Usage
+```
+import 'package:flutter_email_js/flutter_email_js.dart';
+```
+
 ## Examples
 
 ```
-import package:flutter_email_js/flutter_email_js.dart
-
 Map<String, dynamic> templateParams = {
    "user_subject" : "Your subject will be here",
    "user_message" : "Your Message",
@@ -59,8 +62,8 @@ try {
   String result = await FlutterEmailJS.sendEmail(
     serviceId:  'YOUR_SERVICE_ID',
     templateId: 'YOUR_TEMPLATE_ID',
-    userId: 'USER_ID'
-    accessToken : 'ACCESS_TOKEN'
+    userId: 'USER_ID',
+    accessToken : 'ACCESS_TOKEN',
     templateParams,
   );
    print(result);
@@ -70,10 +73,25 @@ try {
 }
 ```
 
-After you all these configuration, we will receive email like;
+The provided code defines a Dart class FlutterEmailJS with a static method sendEmail that facilitates sending emails using the EmailJS service. Here’s a detailed explanation of the code:
+* Importing the Package: This statement imports the flutter_email_js package, which contains the FlutterEmailJS class and its sendEmail method.
+* Static Method:
+    sendEmail is a static method, meaning it can be called without creating an instance of FlutterEmailJS.
+* Parameters:
+        serviceId, templateId, userId, and accessToken are required parameters that must be provided when calling this method.'
+        Template Parameters Map: This map (templateParams) holds the key-value pairs that will be passed to the email template. These parameters are used to dynamically populate the email template with specific values.
+
+
+## Summery
+This code snippet imports the flutter_email_js package and uses it to send an email with dynamic content. It defines the template parameters to customize the email, then calls the sendEmail method with the necessary credentials and parameters. The result of the email-sending operation is printed, and any errors encountered during the process are caught and printed as well.
+
+
+
+
+
+After you all these configuration, you will receive email like;
 
 ![email_js](https://github.com/javedmughal-058/flutter_email_js/assets/91019922/c60af9c3-1eee-4ded-a2dc-953879a84fec)
-
 
 ## Additional information
 
