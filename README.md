@@ -1,39 +1,58 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+## EmailJS SDK for Flutter
+SDK for EmailJS.com services.
+Login to EmailJS account for sending emails.
+https://www.emailjs.com/
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+https://github.com/javedmughal-058/flutter_email_js/assets/91019922/fdbbd3f0-ae8c-44bb-aef1-f368f26cec5e
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+FlutterEmailJS enables you to send emails directly from your code with minimal knowledge required. 
+Simply connect FlutterEmailJS to a supported email service, create an email template, and use our SDK to send emails.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Install FlutterEmailJS SDK:
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
 ```
+$ flutter pub add flutter_email_js 
+```
+
+## Examples
+
+```
+import package:flutter_email_js/flutter_email_js.dart
+
+Map<String, dynamic> templateParams = {
+   "user_subject" : "Your subject will be here",
+   "user_message" : "Your Message",
+   "user_name"    : "Name of Receiver",
+   "user_email"   : "Email of receiver",
+   "reply_email"  : "Enter the email address where you would like to receive replies from users."
+};
+
+try {
+  String result = await FlutterEmailJS.sendEmail(
+    serviceId:  'YOUR_SERVICE_ID',
+    templateId: 'YOUR_TEMPLATE_ID',
+    userId: 'USER_ID'
+    accessToken : 'ACCESS_TOKEN'
+    templateParams,
+  );
+   print(result);
+  
+} catch (error) {
+  print(error.toString());
+}
+```
+
+After you all these configuration, we will receive email like;
+
+![email_js](https://github.com/javedmughal-058/flutter_email_js/assets/91019922/c60af9c3-1eee-4ded-a2dc-953879a84fec)
+
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+For More Information: Contact to javedmughal609@gmail.com
