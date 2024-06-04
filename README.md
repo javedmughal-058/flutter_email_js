@@ -1,4 +1,3 @@
-
 ## EmailJS SDK for Flutter
 
 <table>
